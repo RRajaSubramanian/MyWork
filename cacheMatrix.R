@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = numeric())
 	{
 		cache
 	}
-	#list( setMatrix = setMatrix, getMatrix = getMatrix, cacheInverse = cacheInverse, getInverse = getInverse)
+	list( setMatrix = setMatrix, getMatrix = getMatrix, cacheInverse = cacheInverse, getInverse = getInverse)
 }
 cacheSolve <- function(y, ...)
 {
